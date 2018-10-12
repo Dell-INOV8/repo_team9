@@ -14,8 +14,11 @@
             }
 
             .topnav {
+                position: fixed;
+                text-align: right;
+                width: 100%;
                 overflow: hidden;
-                background-color: #333;
+                background-color: transparent;
             }
 
             .topnav a {
@@ -25,11 +28,14 @@
                 text-align: center;
                 padding: 14px 16px;
                 text-decoration: none;
+                background-color: #333;
+                opacity: 0.6;
+                transition: 0.3s;
             }
 
             .topnav a:hover {
-                background-color #ddd;
                 color: blue;
+                opacity: 1;
             }
 
             .header {
@@ -54,6 +60,31 @@
                 border: 5px solid grey;
             }
 
+            .footer {
+                position: fixed;
+                bottom: 0;
+                width: 100%;
+                background-color: transparent;
+                text-align: right;
+            }
+
+            .footer a {
+                float: right;
+                display: block;
+                color: #f2f2f2;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+                background-color: #333;
+                opacity: 0.6;
+                transition: 0.3s;
+            }
+
+            .footer a:hover {
+                color: blue;
+                opacity: 1;
+            }
+
         </style>
 
     </head>
@@ -61,18 +92,27 @@
 
         <div class="topnav">
             <a href="index.html">Home</a>
+            <a href="profile.html">Profile</a>
         </div>
 
         <div class="header">
-            <h1>Profesisonal Title</h1>
+            <h1>Sydney Priddy, Student</h1>
         </div>
 
         <div class="bio">
-            Bio
+            I am a junior at Texas State University studying Manufacturing Engineering focused in Mechanical Systems. I am very involved on my campus! I am a tour guide for the university and a peer mentor, which allows me to have some pretty awesome experiences. I am an officer for Society of Manufacturing Engineers, and I'm active in Society of Women Engineers, the Honors College, and in my parish at Our Lady of Wisdom University Catholic Church. In my free time, I love shopping ad experimenting with makeup. I also enjoy fishing, boating, and water sports like skiing, and spending time with my friends and family. I am passionate about helping people and love loving problems.
         </div>
 
         <div class="column">
-            <embed src="sample_resume.pdf" width=75% height="500px" />
+            <embed src="resume.pdf" width=75% height="500px" />
+        </div>
+
+        <div class="footer">
+            <a href="linkedin.com">Linkedin</a>
+            <a href="facebook.com">Facebook</a>
+            <a href="instagram.com">Instagram</a>
+            <a href="spotify.com">Spotify</a>
+            
         </div>
 
     </body>
